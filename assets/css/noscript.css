@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	min-height: 100vh;
+	min-height: 100dvh;
+	margin: 0;
+	font: 1rem/1.5 "Noto Sans", serif;
+	hyphens: auto;
+
+	transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #101828;
+		color: #ffffff;
+	}
+}
+.noscript {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	min-height: 100dvh;
+	padding: 0 1rem;
+	
+	font-size: 1.25rem;
+	text-wrap: pretty;
+}
