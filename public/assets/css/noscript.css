@@ -2,12 +2,19 @@
 	box-sizing: border-box;
 }
 body {
+	min-height: 100vh;
+	min-height: 100dvh;
+	margin: 0;
+	font: 1rem/1.5 system-ui;
+	hyphens: auto;
+}
+.noscript {
 	display: grid;
 	place-items: center;
 	min-height: 100vh;
 	min-height: 100dvh;
-	font: 1rem/1.5 system-ui;
-}
-.noscript {
+	padding: 0 1rem;
+	
 	font-size: 1.25rem;
+	text-wrap: pretty;
 }
