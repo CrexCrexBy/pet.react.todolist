@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	min-height: 100dvh;
+	font: 1rem/1.5 system-ui;
+}
+.noscript {
+	font-size: 1.25rem;
+}
